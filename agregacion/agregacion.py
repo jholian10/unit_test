@@ -18,10 +18,7 @@ class Carro:
     def info_motores(self):
         return [motor.encender() for motor in self.motores]
 
-motor1 = Motor(100)
 
-mi_carro = Carro("Toyota")
-mi_carro.agregar_motor(motor1)
 
 
 
